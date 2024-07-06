@@ -138,6 +138,9 @@ img {
     border-radius: 2.9rem;
     cursor: pointer;
     margin-left: 2.9rem;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 .purchase__btn--01 a {
     color: #fff;
