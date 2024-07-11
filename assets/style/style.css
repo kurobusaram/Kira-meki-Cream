@@ -4,7 +4,7 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:767px) {
     html {
         font-size: calc(10 / 390 * 100vw);
     }
@@ -71,7 +71,7 @@ img {
         padding-right: calc(4.8rem - (1200px - 100vw) * .0464);
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .purchase {
         flex-direction: column;
         width: 35.8rem;
@@ -108,7 +108,7 @@ img {
             min-width: 21.4rem;
         }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .purchase__heading {
         margin-left: 0rem;
 
@@ -161,7 +161,7 @@ img {
     cursor: pointer;
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .purchase__btn--01 {
         margin: 1.4rem auto 0;
     }
@@ -187,7 +187,7 @@ img {
         background-size: contain;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header {
         height: 56.6rem;
         padding-bottom: 12.7rem;
@@ -211,7 +211,7 @@ img {
         margin: 2.4rem auto auto;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header__logo {
         margin: 2.4rem 11.8rem auto auto;
         font-size: 2.4rem;
@@ -244,7 +244,7 @@ img {
         left: calc((100vw - 769px) * .297 + 50px);
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .header__heading {
         top: 41.8rem;
         left: 2.3rem;
@@ -269,23 +269,22 @@ img {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: calc(550 / 1500 * 100vw);
+    height: 55rem;
 }
 @media screen and (max-width: 1200px) {
     .appeal {
-        background-size: contain;
-        padding-top: calc((100vw - 769px) * .29 );
-        padding-right: calc((100vw - 769px) * .249);
-        justify-content: end;
+        padding-top: 12.7rem;
+        justify-content: center;
         flex-direction: unset;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .appeal {
         background-image: url(/assets/image/pmv-chamara_sp.jpg);
         background-size: contain;
         height: 68rem;
         padding: 0 ;
+
     }
 }
 .appeal__container {
@@ -326,29 +325,29 @@ img {
 }
 @media screen and (max-width: 1200px) {
     .appeal__container {
-        width: 41.7rem;
         margin-top: unset;
-        margin-left: unset;
+        padding-right: 1.6rem;
+        margin-left: calc(50vw + 1.3rem);
     }
     .appeal__heading {
-        width: 41.7rem;
+        width: unset;
     }
     .appeal__contents {
-        width: calc((100vw - 769px) * .0093 + 379px);
+        width: 36rem;
         margin-top: .5rem;
-        margin-left: calc(35px - (100vw - 769px) * .081);
+
     }
     .appeal__contents--text {
         font-size: 1.4rem;
-        line-height: calc(100vw / 37.5);
     }
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .appeal__container {
         width: 100%;
         margin-top: 4.1rem;
         margin-left: 0rem;
+        padding-right: 0;
     }
     .appeal__heading {
         align-items: center;
@@ -406,7 +405,7 @@ img {
     line-height: calc(32 / 20);
     margin-top: 1.8rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .voice {
         padding: 5rem 0 4.6rem;
     }
@@ -451,6 +450,7 @@ img {
 }
 .voice__contents--name {
     font-size: 1.5rem;
+    font-weight: 400;
     color: #000;
     line-height: calc(32 / 15);
     margin-top: .4rem;
@@ -490,7 +490,7 @@ img {
     }
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .voice__contents {
         flex-direction: column;
         width: 35.8rem;
@@ -534,7 +534,7 @@ img {
     display: flex;
     left: .2rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .slick-initialized .slick-slide {
         margin-right: 4rem;
     }
@@ -569,7 +569,7 @@ img {
     }
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .slick-next {
         right: 1.6rem;
         top: 16.3rem;
@@ -595,7 +595,7 @@ img {
 .slick-prev:before {
     content: url(/assets/image/arrow-left-circle-fill.svg);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .slick-next:before {
         display: inline-block;
         content: url(/assets/image/arrow-right-circle-fill.svg);
@@ -621,7 +621,7 @@ img {
 .slick-dots li button:before {
     font-size: .9rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .slick-dots {
         bottom: -3.15rem;
         width: 88%;
@@ -662,7 +662,7 @@ img {
     margin-top: 1.8rem;
     letter-spacing: .1rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .faq {
         padding: 3.6rem 0 3.3rem;
         margin-bottom: 4.8rem;
@@ -700,6 +700,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: .4rem;
 
 }
 .faq__contents--dt::before {
@@ -718,8 +719,11 @@ img {
 }
 .faq__contents--mark i {
     transform: rotate(0deg);
-    font-size: 2.8rem;
-
+    font-size: 2.2rem;
+    line-height: 1.46;
+    position: absolute;
+    right: 0;
+    top: -.29rem;
 }
 .faq__contents--mark.open i {
     transform: rotate(180deg);
@@ -740,13 +744,16 @@ img {
     top: -.4rem;
     left: -3.3rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .faq__contents--width {
         width: 35.8rem;
         margin-top: 2rem;
     }
     .faq__contents--dl {
-        padding: 1.6rem 0 1.7rem 4.4rem;
+        padding: 1.6rem 2rem 1.7rem 4.4rem;
+    }
+    .faq__contents--dt {
+        margin-bottom: 0rem;
     }
     .faq__contents--dt::before {
         left: -2.8rem;
@@ -759,11 +766,15 @@ img {
     }
     .faq__contents--mark i {
         margin-right: 1.6rem;
-        margin-top: .8rem;
+        margin-top: .3rem;
         font-size: 2rem;
+        right: -2rem;
+        top: 0;
     }
     .faq__contents--mark.open i {
-        margin-top: 0.9rem;
+        margin-top: 0.3rem;
+        right: -1.9rem;
+        top: 0;
     }
     .faq__contents--dd {
         width: 29.7rem;
@@ -846,7 +857,7 @@ footer small {
     color: #fff;
     font-size: 1.8rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     footer {
         height: 16.5rem;
 
